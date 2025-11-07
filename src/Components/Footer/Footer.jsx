@@ -96,7 +96,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            Maha
+            Mahadi H. Milon
           </a>
         </div>
       </div>

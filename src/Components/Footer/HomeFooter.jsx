@@ -100,7 +100,7 @@ const HomeFooter = () => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            Maha
+            Mahadi H. Milon
           </Link>
         </div>
       </div>
