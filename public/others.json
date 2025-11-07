@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1",
+    "title": "Battle Ground: PUBG",
+    "coverPhoto": "https://i.ibb.co.com/7dCDkQfp/game1.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton",
+    "downloads": "5.0M"
+  },
+  {
+    "id": "2",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://i.ibb.co.com/Mk6tpJXK/game2.webp",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Call of Duty Mobile brings classic COD action with iconic maps, weapons, and intense multiplayer modes.",
+    "ratings": "4.6",
+    "developer": "Activision",
+    "downloads": "5.5M"
+  },
+  {
+    "id": "3",
+    "title": "Garena Free Fire",
+    "coverPhoto": "https://i.ibb.co.com/4nWLKRRz/game3.webp",
+    "category": "Battle Royale",
+    "downloadLink": "https://ff.garena.com/",
+    "description": "Free Fire is a survival shooter game set on a remote island where 50 players battle to be the last one standing.",
+    "ratings": "4.3",
+    "developer": "Garena",
+    "downloads": "3.5M"
+  },
+  {
+    "id": "4",
+    "title": "Asphalt 9: Legends",
+    "coverPhoto": "https://i.ibb.co.com/ZRyNsvD7/game4.webp",
+    "category": "Racing",
+    "downloadLink": "https://asphaltlegends.com/",
+    "description": "Asphalt 9 delivers adrenaline-pumping arcade racing with stunning graphics and real-world hypercars.",
+    "ratings": "4.4",
+    "developer": "Gameloft",
+    "downloads": "2.0M"
+  },
+  {
+    "id": "5",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://i.ibb.co.com/pvTdGcVm/game5.webp",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Build your village, train troops, and lead your clan to victory in epic battles for resources and glory.",
+    "ratings": "4.7",
+    "developer": "Supercell",
+    "downloads": "7.5M"
+  },
+  {
+    "id": "6",
+    "title": "Clash Royale",
+    "coverPhoto": "https://i.ibb.co.com/FkWW0Qf0/game6.webp",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashroyale/",
+    "description": "Clash Royale is a real-time strategy game combining tower defense and collectible card gameplay.",
+    "ratings": "4.6",
+    "developer": "Supercell",
+    "downloads": "5.0M"
+  },
+  {
+    "id": "7",
+    "title": "Among Us",
+    "coverPhoto": "https://i.ibb.co.com/7dTqGX8b/Among-us.jpg",
+    "category": "Multiplayer",
+    "downloadLink": "https://innersloth.com/games/among-us/",
+    "description": "Work together to complete tasks but beware of impostors among the crew in this social deduction game.",
+    "ratings": "4.2",
+    "developer": "Innersloth",
+    "downloads": "6.2M"
+  },
+  {
+    "id": "8",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.ibb.co.com/cKB24GV7/Genshin-Impact.jpg",
+    "category": "RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/",
+    "description": "Explore a vast open world filled with magic, mystery, and adventure in Genshin Impact.",
+    "ratings": "4.7",
+    "developer": "HoYoverse",
+    "downloads": "4.3M"
+  },
+  {
+    "id": "9",
+    "title": "Fortnite",
+    "coverPhoto": "https://i.ibb.co.com/4nYtDN8G/Fortnite.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite/",
+    "description": "Fortnite combines building, shooting, and creativity in the most popular battle royale experience.",
+    "ratings": "4.5",
+    "developer": "Epic Games",
+    "downloads": "2.8M"
+  },
+  {
+    "id": "10",
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/DPHYJ3Kk/Mats-9-jaar.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft lets players build and explore endless worlds of creativity and adventure.",
+    "ratings": "5.0",
+    "developer": "Mojang",
+    "downloads": "5.6M"
+  },
+  {
+    "id": "11",
+    "title": "Subway Surfers",
+    "coverPhoto": "https://i.ibb.co.com/d4NfzxwX/Subway-Surfers-game.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://sybogames.com/",
+    "description": "Run, dodge, and jump through colorful tracks in this fast-paced endless runner game.",
+    "ratings": "4.4",
+    "developer": "SYBO Games",
+    "downloads": "3.5M"
+  },
+  {
+    "id": "12",
+    "title": "Temple Run 2",
+    "coverPhoto": "https://i.ibb.co.com/27BgVPhc/Temple-Run-2.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://imangistudios.com/",
+    "description": "Keep running for your life in this thrilling endless adventure through temples and traps.",
+    "ratings": "5.0",
+    "developer": "Imangi Studios",
+    "downloads": "6.1M"
+  }
+  {
+    "id": "13",
+    "title": "Valorant",
+    "coverPhoto": "https://example.com/images/valorant.png",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant blends tactical precision and hero abilities in a 5v5 competitive shooter.",
+    "ratings": "4.6",
+    "developer": "Riot Games",
+    "downloads": "5.6M"
+  },
+  {
+    "id": "14",
+    "title": "Apex Legends Mobile",
+    "coverPhoto": "https://example.com/images/apex.png",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends brings fast-paced hero shooter action to mobile with unique abilities and teamwork.",
+    "ratings": "4.4",
+    "developer": "Respawn Entertainment",
+    "downloads": "3.7M"
+  },
+  {
+    "id": "15",
+    "title": "League of Legends: Wild Rift",
+    "coverPhoto": "https://example.com/images/wildrift.png",
+    "category": "MOBA",
+    "downloadLink": "https://wildrift.leagueoflegends.com/",
+    "description": "Experience the classic 5v5 MOBA gameplay optimized for mobile devices.",
+    "ratings": "4.5",
+    "developer": "Riot Games",
+    "downloads": "2.9M"
+  },
+  {
+    "id": "16",
+    "title": "Mobile Legends: Bang Bang",
+    "coverPhoto": "https://example.com/images/mlbb.png",
+    "category": "MOBA",
+    "downloadLink": "https://m.mobilelegends.com/",
+    "description": "Join intense 5v5 battles and climb the ranks in this popular mobile MOBA.",
+    "ratings": "4.4",
+    "developer": "Moonton",
+    "downloads": "3.0M"
+  }
+]
