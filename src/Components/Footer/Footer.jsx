@@ -4,7 +4,7 @@ import logo from '../../assetss/logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0d0d0d] text-white mt-[80px] pt-10 pb-5 font-poppins">
+    <footer className="bg-[#0d0d0d] text-white mt-20 pt-10 pb-5 font-poppins">
       <div className="max-w-6xl mx-auto px-6">
         {/* 🔗 Footer Links */}
         <div className="flex flex-wrap justify-between gap-8 text-left">
