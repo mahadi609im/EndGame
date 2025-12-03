@@ -93,7 +93,13 @@ const Login = () => {
       <title>Login page</title>
       <ScrollLinked></ScrollLinked>
       <div className="container mx-auto px-[3%] md:px-0">
-        <header>
+        <header
+          className="
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+        >
           <Navbar></Navbar>
         </header>
         <div className="mx-auto min-h-[80vh] w-full flex justify-center items-center mt-10 md:mt-20">

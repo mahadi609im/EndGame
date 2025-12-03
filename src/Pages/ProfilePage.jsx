@@ -13,7 +13,13 @@ const ProfilePage = () => {
       <title>Profile page</title>
       <ScrollLinked></ScrollLinked>
       <div className="container mx-auto px-[3%] md:px-0 flex flex-col min-h-screen">
-        <header>
+        <header
+          className="
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+        >
           <Navbar />
         </header>
 

@@ -30,10 +30,19 @@ const HomeLayout = () => {
     <div className="flex flex-col bg-[#0c062e]">
       <title>Home page</title>
       <ScrollLinked></ScrollLinked>
-      <header className="container mx-auto px-[3%] md:px-0">
+      <header
+        className="
+            container mx-auto px-[3%] md:px-0 
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+      >
         <Navbar></Navbar>
-        <Banner></Banner>
       </header>
+      <section className="container mx-auto px-[3%] md:px-0">
+        <Banner></Banner>
+      </section>
       <main className="flex-1">
         <section className="">
           <Outlet></Outlet>

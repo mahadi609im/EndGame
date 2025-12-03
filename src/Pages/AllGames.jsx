@@ -32,8 +32,15 @@ const AllGames = () => {
       <title>All game</title>
       <ScrollLinked></ScrollLinked>
       <div className="flex flex-col min-h-screen h-full">
-        <header className="container mx-auto px-[3%] md:px-0">
-          <Navbar></Navbar>
+        <header
+          className="
+            container mx-auto px-[3%] md:px-0 
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+        >
+          <Navbar />
         </header>
 
         <div className="flex-1 container mx-auto px-[3%] md:px-0  mt-20">

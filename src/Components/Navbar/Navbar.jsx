@@ -46,7 +46,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="flex items-center justify-between py-5">
+    <nav className="flex items-center justify-between py-5 ">
       <div className="flex items-center justify-center lg:block">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

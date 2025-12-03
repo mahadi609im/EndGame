@@ -17,7 +17,13 @@ const ForgetPage = () => {
   if (isLoading) {
     return (
       <div className="flex flex-col min-h-screen h-full bg-[#0c062e]">
-        <header>
+        <header
+          className="
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+        >
           <Navbar></Navbar>
         </header>
         <main className="flex-1">
@@ -47,7 +53,13 @@ const ForgetPage = () => {
       <title>Forget page</title>
       <ScrollLinked></ScrollLinked>
       <div className="container mx-auto px-[3%] md:px-0">
-        <header>
+        <header
+          className="
+            sticky top-0 left-0 z-40
+            backdrop-blur-lg bg-[#0c062e36]
+            shadow-sm
+            transition-all duration-300"
+        >
           <Navbar></Navbar>
         </header>
         <main className="flex-1 my-24 px-4">
