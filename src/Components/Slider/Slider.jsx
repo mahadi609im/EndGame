@@ -21,7 +21,7 @@ export default function Slider() {
   const nextRef = useRef(null);
 
   return (
-    <div className="relative flex flex-col justify-center items-center py-8">
+    <div className="relative flex flex-col justify-center items-center">
       <Swiper
         style={{
           '--swiper-navigation-color': '#c313b7',
@@ -45,11 +45,11 @@ export default function Slider() {
           disableOnInteraction: false,
         }}
         modules={[Parallax, Pagination, Navigation, Autoplay]}
-        className="mySwiper w-full h-64"
+        className="mySwiper w-full md:h-80"
       >
         {/* Slide 1 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-64">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -68,9 +68,9 @@ export default function Slider() {
               </div>
             </div>
 
-            <div className="w-full md:w-1/2 h-auto flex justify-end">
+            <div className="w-full md:w-1/2 flex justify-end">
               <img
-                className="w-full h-full object-cover rounded-md"
+                className="w-full h-auto object-contain rounded-md"
                 src={bannerImg2}
                 alt=""
               />
@@ -80,7 +80,7 @@ export default function Slider() {
 
         {/* Slide 2 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-64">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -111,7 +111,7 @@ export default function Slider() {
 
         {/* Slide 3 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-64">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -140,7 +140,7 @@ export default function Slider() {
 
         {/* Slide 4 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-64">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
