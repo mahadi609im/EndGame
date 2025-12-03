@@ -5,13 +5,13 @@ import news2 from '../../assets/news2.jpg';
 import { FaChevronRight } from 'react-icons/fa';
 const LatestNews = () => {
   return (
-    <div className="py-10 px-2 md:px-12 lg:px-16 mt-12 md:mty-[56px] lg:mt-20 containerCls">
+    <div className="py-10 px-2 md:px-12 lg:px-16 mt-8 containerCls">
       <div>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-50 italic mb-6 titleFont">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-50 italic titleFont">
           Latest News
         </h2>
       </div>
-      <div className=" flex flex-col md:flex-row justify-between items-center gap-6 mt-16">
+      <div className=" flex flex-col md:flex-row justify-between items-center gap-6 mt-12">
         <div className="w-full md:w-1/2 h-auto">
           <img className="w-full h-full object-cover" src={news1} alt="" />
         </div>

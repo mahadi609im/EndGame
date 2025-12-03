@@ -40,7 +40,7 @@ const HomeLayout = () => {
       >
         <Navbar></Navbar>
       </header>
-      <section className="container mx-auto px-[3%] md:px-0">
+      <section className="container mx-auto px-[3%] md:px-0 ">
         <Banner></Banner>
       </section>
       <main className="flex-1">

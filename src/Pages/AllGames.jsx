@@ -51,9 +51,9 @@ const AllGames = () => {
               </h2>
               <div className="flex gap-1">
                 <div className="border border-[#c313b7] w-[90px]"></div>
-                <div className="border border-[#c313b7] w-[6px]"></div>
-                <div className="border border-[#c313b7] w-[6px]"></div>
-                <div className="border border-[#c313b7] w-[10px]"></div>
+                <div className="border border-[#c313b7] w-1.5"></div>
+                <div className="border border-[#c313b7] w-1.5"></div>
+                <div className="border border-[#c313b7] w-2.5"></div>
               </div>
             </div>
           </div>
