@@ -44,7 +44,8 @@ const HomeFooter = () => {
           <div className="flex-1 min-w-[200px]">
             <img className="w-32" src={logo} alt="" />
             <p className="text-gray-400 mt-2">
-              Enter the arena. Compete. Connect. Conquer.
+              Enter the arena. Compete. Connect. Conquer. Challenge your
+              friends. Master your skills. Dominate the game.
             </p>
             <div className="flex gap-3 mt-4">
               <Link to="https://www.facebook.com/mahadi609im">
@@ -77,25 +78,6 @@ const HomeFooter = () => {
             <ul className="space-y-1 text-gray-400">
               {links}
               {!user && links2}
-            </ul>
-          </div>
-
-          {/* Community */}
-          <div className="flex-1 min-w-[150px]">
-            <h4 className="font-semibold mb-3">Community</h4>
-            <ul className="space-y-1 text-gray-400">
-              <li>
-                <a href="#">Forums</a>
-              </li>
-              <li>
-                <a href="#">Discord</a>
-              </li>
-              <li>
-                <a href="#">Support</a>
-              </li>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
             </ul>
           </div>
 

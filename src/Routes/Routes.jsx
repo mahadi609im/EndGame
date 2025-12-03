@@ -32,11 +32,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/gameDetails/:detailsId',
-    element: (
-      <PrivateRoutes>
-        <GameDetails></GameDetails>
-      </PrivateRoutes>
-    ),
+    element: <GameDetails></GameDetails>,
   },
   {
     path: '/login',
