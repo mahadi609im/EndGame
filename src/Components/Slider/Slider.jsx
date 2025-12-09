@@ -45,11 +45,11 @@ export default function Slider() {
           disableOnInteraction: false,
         }}
         modules={[Parallax, Pagination, Navigation, Autoplay]}
-        className="mySwiper w-full md:h-80"
+        className="mySwiper w-full h-auto"
       >
         {/* Slide 1 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-auto">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -80,7 +80,7 @@ export default function Slider() {
 
         {/* Slide 2 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-auto">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -111,7 +111,7 @@ export default function Slider() {
 
         {/* Slide 3 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-auto">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
@@ -140,7 +140,7 @@ export default function Slider() {
 
         {/* Slide 4 */}
         <SwiperSlide>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:h-80">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 h-auto">
             <div className="space-y-6">
               <div className="flex gap-3 items-center">
                 <div className="border border-slate-600 w-[70px] h-px"></div>
